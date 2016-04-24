@@ -56,6 +56,8 @@ def train(label, w, x, alpha, c=0):
 
 def parse_file(fname):
     for rline in open(fname):
+        if rline[0] == '#':
+            continue
         line = rline.split()
         label = int(line[0])
         if label < 0:
