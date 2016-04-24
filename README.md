@@ -1,8 +1,8 @@
-# Ranklogistics
+# Ranklogistic
 
-This project is implemented to do the pairwise learning to rank with logistics regression like ranksvm.
+This project is implemented to do the pairwise learning to rank with logistic regression like ranksvm.
 
-## Logistics Regression
+## logistic Regression
 
 ### Format
 
@@ -22,7 +22,7 @@ python lr.py test svmguide1.t.scale m1 out.txt
 
 This will show precision, recall, auc, accuracy.
 
-## Ranklogistics
+## Ranklogistic
 
 pairwise learning to rank algorithm like svmrank
 
